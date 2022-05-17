@@ -81,7 +81,15 @@ hr{
     margin:50px auto;
     align-items: center;
 }
-
+.immagine-sezione-down{
+    font-size:20px;
+    width:60%;
+    margin:0 20%;
+    text-align: center;
+}
+.colonna-down{
+    font-size:20px;
+}
 
 .last-section{
     margin-top:50px;
