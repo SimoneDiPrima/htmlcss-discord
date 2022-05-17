@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.image-big{
+    background-size: contain;
+    min-height:500px;
+    background-image:url("../img/jumbo.png");
+}
+.container-titoletto{
+    display:flex;
+    height:50px;
+    color:white;
+}
+.menu-titolo{
+    font-size: 15px;
+    width:25%;
+    padding:15px;
+    text-align:center;
+}
+.menu-titolo-centro{
+    width:50%;
+    padding:15px;
+    border:1px solid gray;
+}
+.lista-titoletto{
+    display:flex;
+    justify-content: space-around;
+}
+.lista-titoletto li{
+    list-style-type: none;
+}
+.intestazione{
+    width:50%;
+    margin-top:100px;
+    font-size:30px;
+    color:white;
+    margin-left:25%;
+    margin-right: 25%;
+    text-align:center;
+}
+.sottotitologrande{
+    font-size:22px;
+    text-align:center;
+}
+.buttons{
+    padding:10px;
+    text-align:center;
+}
+.button-up{
+    height:50px;
+    font-size:15px;
+    border-radius:25%;
+    text-align: center;
+    padding:10px;
+}
+.black-button{
+    color:white;
+    background-color: black;
+}
+hr{
+    color: gray;
+}
+.sin-col{
+    min-height:300px;
+    flex-basis:60%;
+}
+.dest-col{
+    font-size:20px;
+    min-height:300px;
+    flex-basis:40%;
+}
+.destra{
+    align-self: center;
+}
+.immagini-sezioni{
+    display:flex;
+    height:100%;
+    max-width:1200px;
+    margin:50px auto;
+    align-items: center;
+}
+
+
+.last-section{
+    margin-top:50px;
+    text-align: center;
+}
+.sezione-finale{
+    height:200px;
+    background-color: blue;
+    display:flex;
+    justify-content:space-around;
+    color:white;
+    margin-top:10px;
+}
+.colonna-sinistra-finale{
+    font-size:20px;
+    margin-left:10%;
+   
+}
+.colonna-destra-finale{
+width:60%;
+}
+.colonna-destra-finale{
+    display:flex;
+    justify-content:space-between;
+    margin-right:10%;
+}
+.destra-colonna{
+    font-size: 15px;
+}
+.colonna-destra{
+    width:15%;
+}
+.voci-menu{
+    list-style-type: none;
+    margin-top:5px;
+    color:white;
+    text-decoration: none;
+    padding-top:5px;
+}
+.icone-social{
+  margin-top:10px;  
+}
+.footer-container{
+    height:50px;
+    background-color: blue;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footerino{
+    color:white;
+    border:1px solid red;
