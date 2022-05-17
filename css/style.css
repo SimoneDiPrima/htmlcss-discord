@@ -114,7 +114,6 @@ hr{
 .colonna-destra-finale{
     display:flex;
     justify-content:space-between;
-    
     margin-right:10%;
     width:60%;
 }
@@ -128,13 +127,8 @@ hr{
 .icone-social{
   margin-top:10px;  
 }
-.titoletto-footer ,.titolo-footer-sinistra{
+.titoletto-footer , .titoletto-sinistra-footer{
     color:lightblue;
-    font-size: 15px;
-    margin-bottom:10px;
-}
-.menu-item{
-    margin-top:5px;
 }
 .footer-container{
     height:50px;
