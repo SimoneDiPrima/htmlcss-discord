@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .image-big{
     background-size: contain;
@@ -16,13 +17,12 @@
 .menu-titolo{
     font-size: 15px;
     width:25%;
-    padding:15px;
     text-align:center;
+    align-self: center;
 }
 .menu-titolo-centro{
     width:50%;
-    padding:15px;
-    border:1px solid gray;
+ align-self:center;
 }
 .lista-titoletto{
     display:flex;
@@ -49,6 +49,7 @@
     text-align:center;
 }
 .button-up{
+    min-width:70px;
     height:50px;
     font-size:15px;
     border-radius:15%;
@@ -117,11 +118,11 @@ hr{
     margin-right:10%;
     width:60%;
 }
+.menu-item{
+    padding-top:5px;
+}
 .destra-colonna{
     font-size: 15px;
-}
-.colonna-destra{
-    width:15%;
 }
 
 .icone-social{
@@ -139,8 +140,14 @@ hr{
 }
 .footerino{
     color:white;
-    border:1px solid red;
 }
 .fa-brands{
     padding:5px;
+}
+.button-down{
+    height:50px;
+    font-size:15px;
+    border-radius:15%;
+    text-align: center;
+    padding:10px;
 }
