@@ -51,7 +51,7 @@
 .button-up{
     height:50px;
     font-size:15px;
-    border-radius:25%;
+    border-radius:15%;
     text-align: center;
     padding:10px;
 }
@@ -92,29 +92,31 @@ hr{
 }
 
 .last-section{
-    margin-top:50px;
+    margin-bottom:50px;
     text-align: center;
 }
+.titolone{
+    margin-bottom:50px;
+}
 .sezione-finale{
-    height:200px;
-    background-color: blue;
+    min-height:200px;
+    background-color: rgb(16, 16, 56);
     display:flex;
     justify-content:space-around;
     color:white;
-    margin-top:10px;
+    padding:20px;
+    margin:0 auto;
 }
 .colonna-sinistra-finale{
     font-size:20px;
-    margin-left:10%;
-   
-}
-.colonna-destra-finale{
-width:60%;
+    width:40%; 
 }
 .colonna-destra-finale{
     display:flex;
     justify-content:space-between;
+    
     margin-right:10%;
+    width:60%;
 }
 .destra-colonna{
     font-size: 15px;
@@ -122,19 +124,21 @@ width:60%;
 .colonna-destra{
     width:15%;
 }
-.voci-menu{
-    list-style-type: none;
-    margin-top:5px;
-    color:white;
-    text-decoration: none;
-    padding-top:5px;
-}
+
 .icone-social{
   margin-top:10px;  
 }
+.titoletto-footer ,.titolo-footer-sinistra{
+    color:lightblue;
+    font-size: 15px;
+    margin-bottom:10px;
+}
+.menu-item{
+    margin-top:5px;
+}
 .footer-container{
     height:50px;
-    background-color: blue;
+    background-color: rgb(16, 16, 56);
     display:flex;
     justify-content:space-between;
     align-items:center;
